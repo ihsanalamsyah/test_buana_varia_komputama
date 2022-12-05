@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
-import {Card, Accordion, Button} from 'react-bootstrap';
+import {Card, Accordion} from 'react-bootstrap';
 import Axios from 'axios';
-import {useState, useRef, useEffect } from 'react';
+import {useState, useEffect } from 'react';
 import ReactStars from "react-rating-stars-component";
 import { useBottomScrollListener } from 'react-bottom-scroll-listener';
 
