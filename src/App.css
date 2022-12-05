@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.background{
+  background-color: rgb(206, 200, 200);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navigation_bar{
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: x-large;
 }
 
-.App-link {
-  color: #61dafb;
+.pointer{
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar_search{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+#input_search{
+  border-radius: 10px 0px 0px 10px;
+  font-size: 0.8em;
+  border: #697686 solid 1.5px;
+}
+
+  #input_search:focus-visible{
+    border: #697686 solid 1.5px;
   }
-  to {
-    transform: rotate(360deg);
+
+.button_search{
+  border-radius: 0px 10px 10px 0px;
+  margin-left: -2px;
+  font-size: 0.8em;
+  border: #697686 solid 1.5px;
+}
+
+.cards{  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card{
+  margin: 7.5px 0.5em;
+  width: 14rem;
+  background-color: aliceblue !important;
+}
+
+
+.card-img-top{
+  height: 15em;
+  object-fit: cover;
+  background-color: #968c8c;
+}
+
+.card-title{
+  height: 2em;
+}
+
+
+.justify{
+  text-align: justify;
+}
+
+
+.description{
+  height: 25rem;;
+  line-height: normal;
+  padding: 0.3em;
+}
+
+.center_card{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.temperament{
+  line-height: normal;
+  height: 6rem;
+  padding: 0.5em;
+}
+
+.origin{
+  height: 2.5rem;
+}
+
+.a_detail{
+  text-decoration: none;
+  color: black;
+}
+
+  .a_detail:hover{
+    color: black;
   }
+
+.accordion_body{
+  font-size: 0.8em;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hide{
+  display: none;
+}
+
+.button_load_more{
+  border: black solid 1.5px;
+  border-radius: 20px;
+  padding: 0px 15px;
 }
